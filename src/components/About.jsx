@@ -7,11 +7,11 @@ const About = () => {
         <div className="bg-white shadow-lg rounded-3xl overflow-hidden flex flex-col md:flex-row items-center md:items-start">
           <div className="hidden md:flex justify-center items-center p-6 lg:p-12 w-full md:w-1/2">
             <img
-              data-src="/public/nfs.webp"
+              data-src="/about.png"
               alt="Profil"
               className="w-3/4 h-auto object-contain lg:max-w-full rounded-lg bg-gray-100 shadow-lg"
               loading="lazy"
-              src="/public/about.png"
+              src="/about.png"
             />
           </div>
 

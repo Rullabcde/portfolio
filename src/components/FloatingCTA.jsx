@@ -1,16 +1,16 @@
-import React, { useState } from "react"; // Import useState here
+import React, { useState } from "react";
 
 const FloatingCTA = () => {
   const [showForm, setShowForm] = useState(false);
   const [name, setName] = useState("");
-  const [message, setMessage] = useState(""); // Added state for the message
+  const [message, setMessage] = useState("");
 
   const handleBookClick = () => {
     setShowForm(true);
   };
 
   const handleFormSubmit = (e) => {
-    e.preventDefault(); // Prevent default form submission
+    e.preventDefault();
     const waMessage =
       `*Message from ${name}* ✉️\n\n` +
       `*Message:* ${message}\n\n` +
@@ -20,7 +20,7 @@ const FloatingCTA = () => {
       waMessage
     )}`;
     window.open(waUrl, "_blank");
-    setShowForm(false); // Close modal after submission
+    setShowForm(false);
   };
 
   const closeModal = () => {
@@ -51,7 +51,7 @@ const FloatingCTA = () => {
         </div>
       </div>
 
-      {/* Modal (Custom Alert) */}
+      {/* Form */}
       {showForm && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white rounded-lg p-6 w-full max-w-md">

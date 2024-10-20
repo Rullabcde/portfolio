@@ -12,11 +12,11 @@ const Navbar = () => {
       const scrollY = window.scrollY;
       setIsScrolled(scrollY > 50);
 
-      // Show/hide navbar based on scroll direction
+      // Show, Hide Navbar
       if (scrollY > prevScrollY) {
-        setIsVisible(false); // Scrolling down
+        setIsVisible(false);
       } else {
-        setIsVisible(true); // Scrolling up
+        setIsVisible(true);
       }
 
       setPrevScrollY(scrollY);

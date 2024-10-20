@@ -7,37 +7,34 @@ const Project = () => {
     {
       title: "PSLounge",
       description:
-        "A full-stack e-commerce platform built with React and Node.js",
+        "PSLounge is a profile website about Playstation rental that provides several features.",
       image: "/project1.png",
       link: "https://pslounge.vercel.app/",
     },
     {
-      title: "PSLounge",
+      title: "RGames",
       description:
-        "A full-stack e-commerce platform built with React and Node.js",
-      image: "/project1.png",
-      link: "https://pslounge.vercel.app/",
+        "RGames is a game collection website whose data comes from the Rapid API. has search features, genre filtering and pagination.",
+      image: "/project2.png",
+      link: "https://rullgames.vercel.app/",
     },
     {
-      title: "PSLounge",
-      description:
-        "A full-stack e-commerce platform built with React and Node.js",
-      image: "/project1.png",
-      link: "https://pslounge.vercel.app/",
+      title: "Coming Soon",
+      description: "Coming Soon",
+      image: "/comming.jpg",
+      link: "#",
     },
     {
-      title: "PSLounge",
-      description:
-        "A full-stack e-commerce platform built with React and Node.js",
-      image: "/project1.png",
-      link: "https://pslounge.vercel.app/",
+      title: "Coming Soon",
+      description: "Coming Soon",
+      image: "/comming.jpg",
+      link: "#",
     },
     {
-      title: "PSLounge",
-      description:
-        "A full-stack e-commerce platform built with React and Node.js",
-      image: "/project1.png",
-      link: "https://pslounge.vercel.app/",
+      title: "Coming Soon",
+      description: "Coming Soon",
+      image: "/comming.jpg",
+      link: "#",
     },
   ];
 

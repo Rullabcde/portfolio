@@ -3,24 +3,22 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// Custom Arrow Components (Invisible)
 const Arrow = () => <div style={{ display: "none" }} />;
 
 const Skill = () => {
   const clientLogos = [
-    { id: 1, src: "/public/html.png", alt: "HTML" },
-    { id: 2, src: "/public/css.png", alt: "CSS" },
-    { id: 3, src: "/public/javascript.png", alt: "JavaScript" },
-    { id: 4, src: "/public/bootstrap.png", alt: "Bootstrap" },
-    { id: 5, src: "/public/tailwind.png", alt: "Tailwind" },
-    { id: 6, src: "/public/react.png", alt: "React" },
-    { id: 7, src: "/public/kotlin.png", alt: "Kotlin" },
-    { id: 8, src: "/public/python.png", alt: "Python" },
-    { id: 9, src: "/public//ubuntu.png", alt: "Ubuntu" },
-    { id: 10, src: "/public/git.png", alt: "Git" },
+    { id: 1, src: "/html.png", alt: "HTML" },
+    { id: 2, src: "/css.png", alt: "CSS" },
+    { id: 3, src: "/javascript.png", alt: "JavaScript" },
+    { id: 4, src: "/bootstrap.png", alt: "Bootstrap" },
+    { id: 5, src: "/tailwind.png", alt: "Tailwind" },
+    { id: 6, src: "/react.png", alt: "React" },
+    { id: 7, src: "/kotlin.png", alt: "Kotlin" },
+    { id: 8, src: "/python.png", alt: "Python" },
+    { id: 9, src: "/ubuntu.png", alt: "Ubuntu" },
+    { id: 10, src: "/git.png", alt: "Git" },
   ];
 
-  // Duplicate logos to create a smoother infinite effect
   const logosForSlider = [...clientLogos, ...clientLogos];
 
   const settings = {
@@ -30,9 +28,9 @@ const Skill = () => {
     slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 0, // Set to 0 for continuous movement
+    autoplaySpeed: 0,
     cssEase: "linear",
-    pauseOnHover: false, // Don't pause on hover for continuous effect
+    pauseOnHover: false,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,
     responsive: [
