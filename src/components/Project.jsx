@@ -19,10 +19,11 @@ const Project = () => {
       link: "https://rullgames.vercel.app/",
     },
     {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      image: "/comming.jpg",
-      link: "#",
+      title: "IoT Data Center",
+      description:
+        "IoT Monitoring Data Center with DHT11 and PZEM sensors and provides output in the form of Blynk, Buzzer and LED.",
+      image: "/project3.jpg",
+      link: "https://github.com/Rullabcde/monitoring_data_center",
     },
     {
       title: "Coming Soon",

@@ -7,11 +7,21 @@ const Hero = () => {
           <h2 className="text-4xl font-bold mb-10 text-black lg:text-6xl md:text-5xl">
             Transforming Ideas into <br /> Digital Reality.
           </h2>
-          <a
-            href="#contact"
-            className="bg-indigo-600 text-white font-bold px-4 py-2 rounded-md hover:bg-transparent hover:text-black hover:border-black border-2 transition duration-300 cursor-pointer md:px-6 md:py-3 md:ml-4">
-            Contact Me
-          </a>
+        </div>
+
+        <div className="absolute bottom-5 right-0 left-0 w-full flex flex-col gap-3 md:flex-row md:justify-around items-center">
+          <div className="space-x-3 text-center">
+            <span className="font-bold">Muhammad Choirul Rasyid</span>
+            <span>/</span>
+            <span className="font-semibold block md:inline-block">Student</span>
+          </div>
+          <div>
+            <a
+              href="#contact"
+              className="bg-indigo-600 text-white font-bold px-4 py-2 rounded-md hover:bg-transparent hover:text-black hover:border-black border-2 transition duration-300 cursor-pointer hover:scale-90">
+              Contact Me
+            </a>
+          </div>
         </div>
       </div>
     </section>

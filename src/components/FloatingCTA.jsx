@@ -32,7 +32,7 @@ const FloatingCTA = () => {
       id="contact"
       className="flex items-center justify-center p-4 md:p-16">
       <div className="pt-10 items-center justify-center flex">
-        <div className="p-8 bg-gradient-to-r from-blue-600 to-blue-800 rounded-3xl shadow-lg w-full max-w-6xl mx-4 text-center">
+        <div className="p-8 bg-blue-600 rounded-3xl shadow-lg w-full max-w-6xl mx-4 text-center">
           <h1 className="text-3xl md:text-4xl text-white mb-4 font-bold">
             Contact Me
           </h1>
