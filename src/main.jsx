@@ -8,6 +8,7 @@ import Skill from "./components/Skill";
 import Project from "./components/Project";
 import FloatingCTA from "./components/FloatingCTA";
 import Footer from "./components/Footer";
+import ChatBot from "./components/ChatBot";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -18,5 +19,6 @@ createRoot(document.getElementById("root")).render(
     <Project />
     <FloatingCTA />
     <Footer />
+    <ChatBot />
   </StrictMode>
 );
