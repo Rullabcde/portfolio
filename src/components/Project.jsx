@@ -32,7 +32,7 @@ const Project = () => {
     {
       title: "NusaTrip",
       description: "NusaTrip is a website that provides tours to various tourist attractions in Indonesia",
-      image: "/project4.jpg",
+      image: "/project4.png",
       deployedLink: "https://nusatrip.vercel.app/",
       githubLink: "https://github.com/Rullabcde/nusa_trip",
       isComingSoon: false,
