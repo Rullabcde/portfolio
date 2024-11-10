@@ -21,6 +21,15 @@ const Project = () => {
       isComingSoon: false,
     },
     {
+      title: "NusaTrip",
+      description:
+        "NusaTrip is a website that provides tours to various tourist attractions in Indonesia",
+      image: "/project4.png",
+      deployedLink: "https://nusatrip.vercel.app/",
+      githubLink: "https://github.com/Rullabcde/nusa_trip",
+      isComingSoon: false,
+    },
+    {
       title: "IoT Data Center",
       description:
         "IoT Monitoring Data Center with DHT11 and PZEM sensors and provides output in the form of Blynk, Buzzer and LED.",
@@ -36,14 +45,6 @@ const Project = () => {
       deployedLink: "https://nusatrip.vercel.app/",
       githubLink: "https://github.com/Rullabcde/nusa_trip",
       isComingSoon: false,
-    },
-    {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      image: "/comming.jpg",
-      deployedLink: "#",
-      githubLink: "#",
-      isComingSoon: true,
     },
     {
       title: "Coming Soon",

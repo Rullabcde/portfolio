@@ -1,22 +1,24 @@
 import React, { useState } from "react";
 
 const Skill = () => {
-  const [activeCategory, setActiveCategory] = useState("Frontend");
+  const [activeCategory, setActiveCategory] = useState("DevOps");
 
   const skills = [
-    { id: 1, src: "/html.png", alt: "HTML", category: "Frontend" },
-    { id: 2, src: "/css.png", alt: "CSS", category: "Frontend" },
-    { id: 3, src: "/javascript.png", alt: "JavaScript", category: "Frontend" },
-    { id: 4, src: "/bootstrap.png", alt: "Bootstrap", category: "Framework" },
-    { id: 5, src: "/tailwind.png", alt: "Tailwind", category: "Framework" },
-    { id: 6, src: "/react.png", alt: "React", category: "Frontend" },
-    { id: 7, src: "/kotlin.png", alt: "Kotlin", category: "Mobile" },
-    { id: 8, src: "/android.png", alt: "Android Studio", category: "Mobile" },
-    { id: 10, src: "/vscode.png", alt: "VS Code", category: "Tools" },
-    { id: 11, src: "/figma.png", alt: "Figma", category: "Tools" },
-    { id: 12, src: "/github.png", alt: "Github", category: "Tools" },
-    { id: 13, src: "/git.png", alt: "Git", category: "Tools" },
-    { id: 14, src: "/ubuntu.png", alt: "Ubuntu", category: "Tools" },
+    { id: 1, src: "/python.png", alt: "Python", category: "DevOps" },
+    { id: 2, src: "/bash.png", alt: "Bash", category: "DevOps" },
+    { id: 3, src: "/docker.png", alt: "Docker", category: "DevOps" },
+    { id: 4, src: "/kubernetes.png", alt: "Kubernetes", category: "DevOps" },
+    { id: 5, src: "/html.png", alt: "HTML", category: "Frontend" },
+    { id: 6, src: "/css.png", alt: "CSS", category: "Frontend" },
+    { id: 7, src: "/javascript.png", alt: "JavaScript", category: "Frontend" },
+    { id: 8, src: "/bootstrap.png", alt: "Bootstrap", category: "Framework" },
+    { id: 9, src: "/tailwind.png", alt: "Tailwind", category: "Framework" },
+    { id: 10, src: "/react.png", alt: "React", category: "Frontend" },
+    { id: 11, src: "/vscode.png", alt: "VS Code", category: "Tools" },
+    { id: 12, src: "/figma.png", alt: "Figma", category: "Tools" },
+    { id: 13, src: "/github.png", alt: "Github", category: "Tools" },
+    { id: 14, src: "/git.png", alt: "Git", category: "Tools" },
+    { id: 15, src: "/ubuntu.png", alt: "Ubuntu", category: "Tools" },
   ];
 
   const categories = [...new Set(skills.map((skill) => skill.category))];
