@@ -6,34 +6,33 @@ const Project = () => {
       title: "PSLounge",
       description:
         "PSLounge is a profile website about Playstation rental that provides several features.",
-      image: "/project1.png",
+      image: "/pslounge.png",
       deployedLink: "https://pslounge.vercel.app/",
       githubLink: "https://github.com/Rullabcde/pslounge",
-      isComingSoon: false,
-    },
-    {
-      title: "RGames",
-      description:
-        "RGames is a game collection website whose data comes from the Rapid API. has search features, genre filtering and pagination.",
-      image: "/project2.png",
-      deployedLink: "https://rullgames.vercel.app/",
-      githubLink: "https://github.com/Rullabcde/rgames",
       isComingSoon: false,
     },
     {
       title: "NusaTrip",
       description:
         "NusaTrip is a website that provides tours to various tourist attractions in Indonesia",
-      image: "/project4.png",
+      image: "/nusatrip.png",
       deployedLink: "https://nusatrip.vercel.app/",
       githubLink: "https://github.com/Rullabcde/nusa_trip",
+      isComingSoon: false,
+    },
+    {
+      title: "Wordpress on AWS",
+      description: "Wordpress built with AWS (VPC, RDS, EFS, EC2, ECR, ECS)",
+      image: "/wordpress.png",
+      deployedLink: "#",
+      githubLink: "#",
       isComingSoon: false,
     },
     {
       title: "IoT Data Center",
       description:
         "IoT Monitoring Data Center with DHT11 and PZEM sensors and provides output in the form of Blynk, Buzzer and LED.",
-      image: "/project3.jpg",
+      image: "/iotdatacenter.jpg",
       deployedLink: "#",
       githubLink: "https://github.com/Rullabcde/monitoring_data_center",
       isComingSoon: false,

@@ -20,26 +20,26 @@ const About = () => {
               About Me
             </h2>
             <p className="mb-6 text-base md:text-lg">
-              Muhammad Choirul Rasyid, I am currently studying at SMK Negeri 2
-              Yogyakarta majoring in "Sistem Informasi Jaringan dan Aplikasi".
-              This major equips students with the knowledge and skills to build,
-              manage and secure computer networks, as well as develop software
-              applications.
+              Muhammad Choirul Rasyid, I am a student at SMK Negeri 2
+              Yogyakarta, majoring in Network Information Systems and
+              Applications. As someone passionate about information technology,
+              I am eager to develop my skills in DevOps and System
+              Administration.
             </p>
 
             <div className="grid grid-cols-2 gap-4 text-center md:grid-cols-4">
               <div className="flex flex-col items-center">
                 <h3 className="text-2xl font-bold md:text-3xl">
-                  <span>3</span>+
+                  <span>1</span>±
                 </h3>
                 <p className="text-xs md:text-sm">Experience</p>
               </div>
 
               <div className="flex flex-col items-center">
                 <h3 className="text-2xl font-bold md:text-3xl">
-                  <span>30</span>+
+                  <span>10</span>+
                 </h3>
-                <p className="text-xs md:text-sm">Project</p>
+                <p className="text-xs md:text-sm">Projects</p>
               </div>
             </div>
           </div>
