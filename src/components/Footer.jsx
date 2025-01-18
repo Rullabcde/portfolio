@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -25,11 +25,11 @@ const Footer = () => {
               <FaLinkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://www.instagram.com/rullabcd"
+              href="https://medium.com/@choirulrasyid09"
               target="_blank"
               className="text-gray-400 transition-colors hover:text-blue-500"
-              aria-label="Instagram">
-              <FaInstagram className="w-5 h-5" />
+              aria-label="Medium">
+              <FaMedium className="w-5 h-5" />
             </a>
             <a
               href="mailto:choirulrasyid09@gmail.com"

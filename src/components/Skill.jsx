@@ -4,17 +4,17 @@ const Skill = () => {
   const [activeCategory, setActiveCategory] = useState("DevOps");
 
   const skills = [
-    { id: 1, src: "/python.png", alt: "Python", category: "DevOps" },
-    { id: 2, src: "/bash.png", alt: "Bash", category: "DevOps" },
-    { id: 3, src: "/docker.png", alt: "Docker", category: "DevOps" },
-    { id: 4, src: "/kubernetes.png", alt: "Kubernetes", category: "DevOps" },
-    { id: 5, src: "/aws.png", alt: "AWS", category: "DevOps" },
-    { id: 6, src: "/html.png", alt: "HTML", category: "Other" },
-    { id: 7, src: "/css.png", alt: "CSS", category: "Other" },
-    { id: 8, src: "/javascript.png", alt: "JavaScript", category: "Other" },
+    { id: 1, src: "/bash.png", alt: "Bash", category: "DevOps" },
+    { id: 2, src: "/docker.png", alt: "Docker", category: "DevOps" },
+    { id: 3, src: "/kubernetes.png", alt: "Kubernetes", category: "DevOps" },
+    { id: 4, src: "/aws.png", alt: "AWS", category: "DevOps" },
+    { id: 5, src: "/html.png", alt: "HTML", category: "Other" },
+    { id: 6, src: "/css.png", alt: "CSS", category: "Other" },
+    { id: 7, src: "/javascript.png", alt: "JavaScript", category: "Other" },
+    { id: 8, src: "/python.png", alt: "Python", category: "Other" },
     { id: 9, src: "/react.png", alt: "React", category: "Other" },
     { id: 10, src: "/git.png", alt: "Git", category: "Other" },
-    { id: 11, src: "/ubuntu.png", alt: "Ubuntu", category: "OS" },
+    { id: 11, src: "/linux.png", alt: "Linux", category: "OS" },
     { id: 12, src: "/windows.png", alt: "Windows", category: "OS" },
   ];
 
