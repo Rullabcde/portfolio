@@ -5,7 +5,7 @@ const Project = () => {
     {
       title: "PSLounge",
       description:
-        "PSLounge is a profile website about Playstation rental that provides several features.",
+        "PSLounge is a profile website about Playstation rental that provides several features",
       image: "/pslounge.png",
       deployedLink: "https://pslounge.vercel.app/",
       githubLink: "https://github.com/Rullabcde/pslounge",
@@ -21,6 +21,15 @@ const Project = () => {
       isComingSoon: false,
     },
     {
+      title: "AL-HUDA",
+      description:
+        "AL-HUDA is a website with activity information and easy access for the congregation",
+      image: "/alhuda.png",
+      deployedLink: "https://masjid-al-huda.vercel.app/",
+      githubLink: "https://github.com/Rullabcde/Al-Huda",
+      isComingSoon: false,
+    },
+    {
       title: "Wordpress on AWS",
       description: "Wordpress built with AWS (VPC, RDS, EFS, EC2, ECR, ECS)",
       image: "/wordpress.png",
@@ -29,29 +38,22 @@ const Project = () => {
       isComingSoon: false,
     },
     {
+      title: "Create LMS based on Moodle",
+      description:
+        "Based on Moodle with Moodle, web-server Apache, and database MariaDB.",
+      image: "/moodle.png",
+      deployedLink: "#",
+      githubLink: "#",
+      isComingSoon: false,
+    },
+    {
       title: "IoT Data Center",
       description:
-        "IoT Monitoring Data Center with DHT11 and PZEM sensors and provides output in the form of Blynk, Buzzer and LED.",
+        "IoT Monitoring Data Center with DHT11 and PZEM sensors and provides output in the form of Blynk, Buzzer and LED",
       image: "/iotdatacenter.jpg",
       deployedLink: "#",
       githubLink: "https://github.com/Rullabcde/monitoring_data_center",
       isComingSoon: false,
-    },
-    {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      image: "/comming.jpg",
-      deployedLink: "#",
-      githubLink: "#",
-      isComingSoon: true,
-    },
-    {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      image: "/comming.jpg",
-      deployedLink: "#",
-      githubLink: "#",
-      isComingSoon: true,
     },
   ];
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   const handleDownloadCV = () => {
-    const cvUrl = "/cvrevisi.pdf";
+    const cvUrl = "/cv.pdf";
 
     // Create a temporary anchor element
     const link = document.createElement("a");

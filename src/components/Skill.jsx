@@ -13,9 +13,8 @@ const Skill = () => {
     { id: 7, src: "/javascript.png", alt: "JavaScript", category: "Other" },
     { id: 8, src: "/python.png", alt: "Python", category: "Other" },
     { id: 9, src: "/react.png", alt: "React", category: "Other" },
-    { id: 10, src: "/git.png", alt: "Git", category: "Other" },
-    { id: 11, src: "/linux.png", alt: "Linux", category: "OS" },
-    { id: 12, src: "/windows.png", alt: "Windows", category: "OS" },
+    { id: 10, src: "/linux.png", alt: "Linux", category: "OS" },
+    { id: 11, src: "/windows.png", alt: "Windows", category: "OS" },
   ];
 
   const categories = [...new Set(skills.map((skill) => skill.category))];
