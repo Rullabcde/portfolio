@@ -25,7 +25,7 @@ const Project = () => {
       description:
         "AL-HUDA is a website with activity information and easy access for the congregation",
       image: "/alhuda.png",
-      deployedLink: "https://masjid-al-huda.vercel.app/",
+      deployedLink: "https://masjidalhuda.vercel.app/",
       githubLink: "https://github.com/Rullabcde/Al-Huda",
       isComingSoon: false,
     },
