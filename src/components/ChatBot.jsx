@@ -43,6 +43,7 @@ const ChatBot = () => {
       {/* Chatbot Button */}
       <button
         onClick={toggleChatBot}
+        aria-label="Toggle chat bot" // Adding accessible name for screen readers
         className="flex items-center justify-center w-16 h-16 text-white bg-blue-600 rounded-full shadow-lg">
         <FaComments size={28} />
       </button>
