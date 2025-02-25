@@ -61,7 +61,7 @@ export const DATA = {
         url: "mailto:choirulrasyid09@gmail.com",
         icon: Icons.email,
 
-        navbar: true,
+        navbar: false,
       },
     },
   },
@@ -196,8 +196,8 @@ export const DATA = {
       dates: "Feb 2025",
       active: true,
       description:
-        "A WordPress website built on AWS, utilizing a robust architecture that includes VPC for secure networking, RDS for efficient database management, EFS for scalable file storage, EC2 for virtual server hosting, ECR for containerized image storage, and ECS for seamless container orchestration and deployment.",
-      technologies: ["AWS", "VPC", "RDS", "EFS", "EC2", "ECR", "ECS"],
+        "A WordPress website built on AWS, utilizing a robust architecture that includes VPC for secure networking, RDS for efficient database management, EFS for scalable file storage, S3 for reliable object storage and media delivery, EC2 for virtual server hosting, ECR for containerized image storage, and ECS for seamless container orchestration and deployment.",
+      technologies: ["AWS", "VPC", "RDS", "EFS", "S3", "EC2", "ECR", "ECS"],
       links: [],
       image: "/wordpress.png",
     },
