@@ -16,6 +16,7 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      {/* Hero */}
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex sm:flex-row sm:justify-between flex-col-reverse items-center gap-y-3">
@@ -50,6 +51,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* About */}
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
@@ -60,30 +63,8 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-      {/* <section id="work">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
-          </BlurFade>
-          {DATA.work.map((work, id) => (
-            <BlurFade
-              key={work.company}
-              delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
-              <ResumeCard
-                key={work.company}
-                logoUrl={work.logoUrl}
-                altText={work.company}
-                title={work.company}
-                subtitle={work.title}
-                href={work.href}
-                badges={work.badges}
-                period={`${work.start} - ${work.end ?? "Present"}`}
-                description={work.description}
-              />
-            </BlurFade>
-          ))}
-        </div>
-      </section> */}
+
+      {/* Education */}
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
@@ -106,6 +87,8 @@ export default function Page() {
           ))}
         </div>
       </section>
+
+      {/* Skills */}
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -120,6 +103,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* Projects */}
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -159,6 +144,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* Activity */}
       <section id="activity">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -197,6 +184,8 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+
+      {/* Contact */}
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
@@ -210,7 +199,7 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me an email{" "}
                 <Link
-                  href={DATA.contact.social.email.url}
+                  href={DATA.contact.social.Email.url}
                   className="text-blue-500 hover:underline">
                   with a direct question
                 </Link>{" "}
