@@ -55,14 +55,8 @@ export const DATA = {
       Email: {
         name: "Send Email",
         url: "mailto:choirulrasyid09@gmail.com",
-<<<<<<< HEAD
         icon: Icons.Email,
         navbar: true,
-=======
-        icon: Icons.email,
-
-        navbar: false,
->>>>>>> f4c681ab9b1b943857018b8f8d472c300c6b2e27
       },
     },
   },
@@ -144,13 +138,8 @@ export const DATA = {
       dates: "Feb 2025",
       active: true,
       description:
-<<<<<<< HEAD
-        "A WordPress website built on AWS, utilizing a robust architecture that includes VPC for secure networking, RDS for efficient database management, EFS for scalable file storage, EC2 for virtual server hosting, ECR for containerized image storage, and ECS for seamless container orchestration and deployment.",
-      technologies: ["AWS", "VPC", "RDS", "S3", "EFS", "EC2", "ECR", "ECS"],
-=======
         "A WordPress website built on AWS, utilizing a robust architecture that includes VPC for secure networking, RDS for efficient database management, EFS for scalable file storage, S3 for reliable object storage and media delivery, EC2 for virtual server hosting, ECR for containerized image storage, and ECS for seamless container orchestration and deployment.",
       technologies: ["AWS", "VPC", "RDS", "EFS", "S3", "EC2", "ECR", "ECS"],
->>>>>>> f4c681ab9b1b943857018b8f8d472c300c6b2e27
       links: [],
       image: "/wordpress.png",
     },

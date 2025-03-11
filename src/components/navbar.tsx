@@ -26,8 +26,9 @@ export default function Navbar() {
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
                   )}
-                >
+                  aria-label={item.label}>
                   <item.icon className="size-4" />
+                  <span className="sr-only">{item.label}</span>
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
@@ -49,8 +50,9 @@ export default function Navbar() {
                       buttonVariants({ variant: "ghost", size: "icon" }),
                       "size-12"
                     )}
-                  >
+                    aria-label={name}>
                     <social.icon className="size-4" />
+                    <span className="sr-only">{name}</span>
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent>
@@ -63,7 +65,7 @@ export default function Navbar() {
         <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>
-              <ModeToggle />
+              <ModeToggle aria-label="Toggle theme" />
             </TooltipTrigger>
             <TooltipContent>
               <p>Theme</p>
