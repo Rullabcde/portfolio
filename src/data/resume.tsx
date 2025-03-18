@@ -163,6 +163,20 @@ export const DATA = {
   ],
   activity: [
     {
+      title: "Containerization using Podman",
+      dates: "March 18, 2025",
+      description:
+        "Participated in a webinar on Podman containerization, covering fundamental concepts and practical implementation.",
+      image: "/id-networkers.png",
+      links: [
+        {
+          title: "ID-Networkers",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://id-networkers.com/",
+        },
+      ],
+    },
+    {
       title: "Secure and Fast Deployment with CI/CD",
       dates: "December 20, 2024",
       description:
