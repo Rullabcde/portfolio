@@ -117,8 +117,8 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I've worked on various projects, ranging from Linux server
-                  administration to web development. Here are some of my
+                  I&apos;ve worked on various projects, ranging from Linux
+                  server administration to web development. Here are some of my
                   favorites.
                 </p>
               </div>
