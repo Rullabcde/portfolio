@@ -8,21 +8,19 @@ export const DATA = {
   location: "Yogyakarta City",
   locationLink: "https://www.google.com/maps/place/yogyakarta",
   description:
-    "Student aspire to become a System Administrator. I am passionate about automation, cloud computing, and optimizing system infrastructure to enhance performance and reliability.",
+    "Student aspiring to become a System Administrator, with a strong passion for system administration, DevOps practices, and infrastructure automation to enhance performance, scalability, and reliability.",
   summary:
-    "Currently attending SMK Negeri 2 Yogyakarta, majoring in Network Information Systems and Applications. With a strong passion for information technology, I am eager to expand my knowledge and develop my skills, particularly in DevOps and System Administration. I am highly motivated to learn about cloud computing, automation, and network infrastructure to enhance system efficiency and reliability. I am always looking for opportunities to gain hands-on experience and improve my technical expertise in the ever-evolving IT industry.",
+    "Currently attending SMK Negeri 2 Yogyakarta, majoring in Sistem Informasi Jaringan dan Aplikasi. With a strong passion for information technology, I am eager to expand my knowledge and develop my skills, particularly in DevOps and System Administration. I am highly motivated to learn about cloud computing, automation, and network infrastructure to enhance system efficiency and reliability. I am always looking for opportunities to gain hands-on experience and improve my technical expertise in the ever-evolving IT industry.",
   avatarUrl: "/about.jpg",
   skills: [
-    "React",
-    "Next",
-    "Javascript",
-    "Typescript",
-    "Python",
+    "Ubuntu",
+    "Shell Scripting",
     "Docker",
     "Kubernetes",
-    "Bash",
     "AWS",
-    "Ubuntu",
+    "React",
+    "Next.js",
+    "PHP",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -66,33 +64,24 @@ export const DATA = {
       href: "https://www.smk2-yk.sch.id/",
       degree: "Sistem Informasi Jaringan dan Aplikasi",
       logoUrl: "/smk2yk.jpeg",
-      start: "2022",
+      start: "July 2022",
       end: "Present",
     },
   ],
+  work: [
+    {
+      company: "PT. Jetorbit Indonesia",
+      href: "https://www.jetorbit.com/",
+      badges: [],
+      location: "On Site",
+      title: "Junior System Administrator",
+      logoUrl: "/jetorbit.jpg",
+      start: "May 2025",
+      end: "Present",
+      description: "hehe",
+    },
+  ],
   projects: [
-    {
-      title: "Proxmox High-Availability Cluster",
-      href: "#",
-      dates: "Oct 2024",
-      active: true,
-      description:
-        "A Proxmox VE 8.2.2 cluster with high availability, featuring nodes (irul, irul2, irul3) and leveraging local-lvm and NFS for efficient storage. It enables seamless VM and container orchestration with backup, replication, and security for optimal performance.",
-      technologies: ["Proxmox", "NFS", "HA"],
-      links: [],
-      image: "/hacluster.jpg",
-    },
-    {
-      title: "HAProxy Load Balancer",
-      href: "#",
-      dates: "Feb 2025",
-      active: true,
-      description:
-        "An HAProxy load balancing setup with real-time monitoring, efficiently distributing traffic across backend servers (backend1 & backend2) for optimal performance. The dashboard tracks sessions, byte transfers, errors, and health status, ensuring reliability and scalability.",
-      technologies: ["Ubuntu", "HAProxy"],
-      links: [],
-      image: "/haproxy.webp",
-    },
     {
       title: "Masjid AL-HUDA",
       href: "https://masjidalhuda.vercel.app",
@@ -111,37 +100,26 @@ export const DATA = {
       image: "/alhuda.png",
     },
     {
-      title: "PSLounge",
-      href: "https://pslounge.vercel.app",
-      dates: "Nov 2024",
-      active: true,
-      description:
-        "PSLounge is a profile website dedicated to PlayStation rental services, offering a range of features that allow users to browse available consoles, check pricing and rental durations, make reservations, and stay updated with the latest promotions and game additions.",
-      technologies: ["React", "Javascript", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://pslounge.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Rullabcde/pslounge",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/pslounge.png",
-    },
-    {
-      title: "Wordpress on AWS",
+      title: "HAProxy Load Balancer",
       href: "#",
       dates: "Feb 2025",
       active: true,
       description:
-        "A WordPress website built on AWS, utilizing a robust architecture that includes VPC for secure networking, RDS for efficient database management, EFS for scalable file storage, S3 for reliable object storage and media delivery, EC2 for virtual server hosting, ECR for containerized image storage, and ECS for seamless container orchestration and deployment.",
-      technologies: ["AWS", "VPC", "RDS", "EFS", "S3", "EC2", "ECR", "ECS"],
+        "An HAProxy load balancing setup with real-time monitoring, efficiently distributing traffic across backend servers (backend1 & backend2) for optimal performance. The dashboard tracks sessions, byte transfers, errors, and health status, ensuring reliability and scalability.",
+      technologies: ["Ubuntu", "HAProxy"],
       links: [],
-      image: "/wordpress.png",
+      image: "/haproxy.webp",
+    },
+    {
+      title: "Proxmox High-Availability Cluster",
+      href: "#",
+      dates: "Oct 2024",
+      active: true,
+      description:
+        "A Proxmox VE 8.2.2 cluster with high availability, featuring nodes (irul, irul2, irul3) and leveraging local-lvm and NFS for efficient storage. It enables seamless VM and container orchestration with backup, replication, and security for optimal performance.",
+      technologies: ["Proxmox", "NFS", "HA"],
+      links: [],
+      image: "/hacluster.jpg",
     },
     {
       title: "IoT Data Center",
@@ -162,6 +140,20 @@ export const DATA = {
     },
   ],
   activity: [
+    {
+      title: "Deploy Website on Linux Using Nginx",
+      dates: "April 28, 2025",
+      description:
+        "Participated in a webinar on deploying websites on Linux using Nginx, covering basic web server setup and configuration.",
+      image: "/id-networkers.png",
+      links: [
+        {
+          title: "ID-Networkers",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://id-networkers.com/",
+        },
+      ],
+    },
     {
       title: "Containerization using Podman",
       dates: "March 18, 2025",

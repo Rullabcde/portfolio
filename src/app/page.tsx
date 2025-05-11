@@ -36,7 +36,8 @@ export default function Page() {
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
                 <Suspense
-                  fallback={<AvatarFallback>{DATA.initials}</AvatarFallback>}>
+                  fallback={<AvatarFallback>{DATA.initials}</AvatarFallback>}
+                >
                   <Image
                     src={DATA.avatarUrl}
                     alt={DATA.name}
@@ -73,7 +74,8 @@ export default function Page() {
           {DATA.education.map((education, id) => (
             <BlurFade
               key={education.school}
-              delay={BLUR_FADE_DELAY * 8 + id * 0.05}>
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
               <ResumeCard
                 key={education.school}
                 href={education.href}
@@ -88,6 +90,32 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Work */}
+      <section id="work">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h2 className="text-xl font-bold">Experience</h2>
+          </BlurFade>
+          {DATA.work.map((work, id) => (
+            <BlurFade
+              key={work.company}
+              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
+            >
+              <ResumeCard
+                key={work.company}
+                logoUrl={work.logoUrl}
+                altText={work.company}
+                title={work.company}
+                subtitle={work.title}
+                href={work.href}
+                badges={work.badges}
+                period={`${work.start} - ${work.end ?? "Present"}`}
+                // description={work.description}
+              />
+            </BlurFade>
+          ))}
+        </div>
+      </section>
       {/* Skills */}
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -128,7 +156,8 @@ export default function Page() {
             {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}>
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
                 <ProjectCard
                   href={project.href}
                   key={project.title}
@@ -159,8 +188,7 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   During my time at school, I attended several webinars and
-                  courses. These activities motivated me to deepen my interest
-                  in programming.
+                  courses on System Administration, and Web Technologies.
                 </p>
               </div>
             </div>
@@ -170,7 +198,8 @@ export default function Page() {
               {DATA.activity.map((project, id) => (
                 <BlurFadeLi
                   key={project.title + project.dates}
-                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
                   <ActivityCard
                     title={project.title}
                     description={project.description}
@@ -200,7 +229,8 @@ export default function Page() {
                 Want to chat? Just shoot me an email{" "}
                 <Link
                   href={DATA.contact.social.Email.url}
-                  className="text-blue-500 hover:underline">
+                  className="text-blue-500 hover:underline"
+                >
                   with a direct question
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
