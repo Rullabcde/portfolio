@@ -15,12 +15,15 @@ export const DATA = {
   skills: [
     "Ubuntu",
     "Shell Scripting",
+    "Git",
     "Docker",
     "Kubernetes",
+    "Ansible",
     "AWS",
     "React",
     "Next.js",
     "PHP",
+    "Python",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -66,6 +69,8 @@ export const DATA = {
       logoUrl: "/smk2yk.jpeg",
       start: "July 2022",
       end: "Present",
+      description:
+        "I have developed strong Linux system administration skills, including service management, user roles and permissions, and server security hardening. In practical server deployment simulations, I successfully configured DNS and Mail Servers. I have experience deploying and maintaining Apache/Nginx web servers and WordPress-based websites. To improve efficiency, I automated routine system tasks using Bash scripting. In the field of security, I practiced penetration testing and network security through Kali Linux labs. I utilized Proxmox VE for virtualization to simulate infrastructure environments. Additionally, I built an IoT-based data center monitoring system using DHT11 and PZEM sensors, integrated with Blynk for real-time alerts via LED and buzzer. On the web development side, I created responsive web applications using React, Next.js, and Tailwind CSS. I also simulated high availability clusters to gain an understanding of redundancy and failover mechanisms, and explored cloud deployment workflows using AWS.",
     },
   ],
   work: [
@@ -100,17 +105,6 @@ export const DATA = {
       image: "/alhuda.png",
     },
     {
-      title: "HAProxy Load Balancer",
-      href: "#",
-      dates: "Feb 2025",
-      active: true,
-      description:
-        "An HAProxy load balancing setup with real-time monitoring, efficiently distributing traffic across backend servers (backend1 & backend2) for optimal performance. The dashboard tracks sessions, byte transfers, errors, and health status, ensuring reliability and scalability.",
-      technologies: ["Ubuntu", "HAProxy"],
-      links: [],
-      image: "/haproxy.webp",
-    },
-    {
       title: "Proxmox High-Availability Cluster",
       href: "#",
       dates: "Oct 2024",
@@ -141,10 +135,10 @@ export const DATA = {
   ],
   activity: [
     {
-      title: "Deploy Website on Linux Using Nginx",
-      dates: "April 28, 2025",
+      title: "Belajar Linux dari Nol+",
+      dates: "May 26, 2025",
       description:
-        "Participated in a webinar on deploying websites on Linux using Nginx, covering basic web server setup and configuration.",
+        "Completed an online course on learning Linux from scratch, covering fundamental Linux concepts and practical skills for system administration.",
       image: "/id-networkers.png",
       links: [
         {
@@ -155,10 +149,10 @@ export const DATA = {
       ],
     },
     {
-      title: "Containerization using Podman",
-      dates: "March 18, 2025",
+      title: "Jaringan Komputer Dasar",
+      dates: "May 26, 2025",
       description:
-        "Participated in a webinar on Podman containerization, covering fundamental concepts and practical implementation.",
+        "Completed a comprehensive course covering basic computer networking concepts, network models, IP addressing, DNS systems, and AWS networking services.",
       image: "/id-networkers.png",
       links: [
         {
@@ -169,10 +163,24 @@ export const DATA = {
       ],
     },
     {
-      title: "Secure and Fast Deployment with CI/CD",
-      dates: "December 20, 2024",
+      title: "Belajar Jaringan Komputer untuk Pemula",
+      dates: "May 19, 2025",
       description:
-        "Ensuring safe and efficient application deployment using CI/CD.",
+        "Mastered fundamental computer networking concepts including network types, internet protocols, bandwidth, throughput, latency, OSI and TCP/IP models, IP addressing, subnetting, DHCP, and various DNS record types.",
+      image: "/dicoding.png",
+      links: [
+        {
+          title: "Dicoding",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.dicoding.com/",
+        },
+      ],
+    },
+    {
+      title: "Belajar Dasar-Dasar DevOps",
+      dates: "May 18, 2025",
+      description:
+        "Learned comprehensive DevOps fundamentals including understanding DevOps definition and benefits, core principles through The Three Ways, CALMS Framework culture, DevOps practices with pipelines and tools, and real-world implementation case studies using Amazon examples.",
       image: "/dicoding.png",
       links: [
         {
