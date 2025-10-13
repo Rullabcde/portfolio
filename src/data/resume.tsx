@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Muhammad Choirul Rasyid",
@@ -8,28 +8,22 @@ export const DATA = {
   location: "Yogyakarta City",
   locationLink: "https://www.google.com/maps/place/yogyakarta",
   description:
-    "Student aspiring to become a System Administrator, with a strong passion for system administration, DevOps practices, and infrastructure automation to enhance performance, scalability, and reliability.",
+    "Student aspiring to become a System Administrator, with a strong passion for Linux systems, DevOps, and infrastructure automation to boost performance, scalability, and reliability.",
   summary:
-    "Currently attending SMK Negeri 2 Yogyakarta, majoring in Sistem Informasi Jaringan dan Aplikasi. With a strong passion for information technology, I am eager to expand my knowledge and develop my skills, particularly in DevOps and System Administration. I am highly motivated to learn about cloud computing, automation, and network infrastructure to enhance system efficiency and reliability. I am always looking for opportunities to gain hands-on experience and improve my technical expertise in the ever-evolving IT industry.",
-  avatarUrl: "/about.jpg",
+    "I’m a student at SMK Negeri 2 Yogyakarta majoring in Sistem Informasi Jaringan dan Aplikasi. Passionate about Linux, server infrastructure, and DevOps practices, I focus on building and managing reliable systems using tools like Docker, Kubernetes, and Ansible. I’m actively exploring cloud computing, CI/CD, and observability stacks such as Prometheus and Grafana to improve performance and scalability. Always eager to learn and gain hands-on experience, I aim to grow into a professional System Administrator or DevOps Engineer.",
+  avatarUrl: "/about.jpeg",
   skills: [
-    "Ubuntu",
-    "DNS",
-    "Nginx",
-    "MySQL",
-    "Ubuntu",
+    "Linux",
     "Shell Script",
-    "Git",
+    "HAProxy",
+    "Nginx",
     "Docker",
     "Kubernetes",
     "Ansible",
+    "Jenkins",
     "Prometheus",
     "Grafana",
     "AWS",
-    "React",
-    "Next.js",
-    "PHP",
-    "Python",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -94,21 +88,26 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Masjid AL-HUDA",
-      href: "https://masjidalhuda.vercel.app",
-      dates: "Jan 2025 - Feb 2025",
+      title: "High-Availability K3s Cluster",
+      href: "#",
+      dates: "Sep 2025",
       active: true,
       description:
-        "AL-HUDA is a website that provides comprehensive information about various activities and ensures easy access for the congregation, allowing them to stay updated on events, schedules, and other important announcements.",
-      technologies: ["Next", "Javascript", "Firebase", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://masjidalhuda.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/alhuda.png",
+        "A fault-tolerant K3s cluster with multi-control plane setup and external database (MySQL) for high availability. Includes load-balanced API servers, multiple worker nodes, and built-in Traefik for ingress. Designed for self-healing and scalable workloads.",
+      technologies: ["K3s", "MySQL", "Traefik", "HA", "Load Balancer"],
+      links: [],
+      image: "/k3scluster.jpg",
+    },
+    {
+      title: "Mailcow Self-Hosted Mail Server",
+      href: "#",
+      dates: "Aug 2025",
+      active: true,
+      description:
+        "A self-hosted Mailcow installation on Ubuntu Server with Docker, providing secure mail services including Postfix, Dovecot, and SOGo webmail. Configured SSL, DNS records, and backup automation for reliable email delivery and domain isolation.",
+      technologies: ["Mailcow", "Docker", "Postfix", "Dovecot", "SOGo", "SSL"],
+      links: [],
+      image: "/mailcow.jpg",
     },
     {
       title: "Proxmox High-Availability Cluster",
