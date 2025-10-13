@@ -89,7 +89,7 @@ export const DATA = {
   projects: [
     {
       title: "High-Availability K3s Cluster",
-      href: "#",
+      href: "https://www.linkedin.com/posts/muhammad-choirul-rasyid_kubernetes-highavailability-k3s-activity-7371788734272307201-OLq9",
       dates: "Sep 2025",
       active: true,
       description:
@@ -100,7 +100,7 @@ export const DATA = {
     },
     {
       title: "Mailcow Self-Hosted Mail Server",
-      href: "#",
+      href: "https://www.linkedin.com/posts/muhammad-choirul-rasyid_mailcow-docker-emailsecurity-activity-7363100514831527936-2aw4",
       dates: "Aug 2025",
       active: true,
       description:
