@@ -28,7 +28,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     {
-      href: "https://medium.com/@choirulrasyid09",
+      href: "https://medium.com/@muhammadchoirulrasyid",
       icon: Icons.medium,
       label: "Blog",
     },

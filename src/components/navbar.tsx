@@ -26,7 +26,8 @@ export default function Navbar() {
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
                   )}
-                  aria-label={item.label}>
+                  aria-label={item.label}
+                >
                   <item.icon className="size-4" />
                   <span className="sr-only">{item.label}</span>
                 </Link>
@@ -37,7 +38,9 @@ export default function Navbar() {
             </Tooltip>
           </DockIcon>
         ))}
+
         <Separator orientation="vertical" className="h-full" />
+
         {Object.entries(DATA.contact.social)
           .filter(([_, social]) => social.navbar)
           .map(([name, social]) => (
@@ -50,7 +53,8 @@ export default function Navbar() {
                       buttonVariants({ variant: "ghost", size: "icon" }),
                       "size-12"
                     )}
-                    aria-label={name}>
+                    aria-label={name}
+                  >
                     <social.icon className="size-4" />
                     <span className="sr-only">{name}</span>
                   </Link>
@@ -61,7 +65,9 @@ export default function Navbar() {
               </Tooltip>
             </DockIcon>
           ))}
+
         <Separator orientation="vertical" className="h-full py-2" />
+
         <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>
